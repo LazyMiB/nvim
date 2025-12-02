@@ -53,4 +53,5 @@ vim.lsp.enable({
   "tsp_server",
   "gopls",
   "textlsp",
+  "ols",
 })
