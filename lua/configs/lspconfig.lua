@@ -54,4 +54,5 @@ vim.lsp.enable({
   "gopls",
   "textlsp",
   "ols",
+  "haxe-language-server",
 })
