@@ -94,6 +94,15 @@ local plugins = {
       vim.keymap.set("n", "<F5>", "<Cmd>DoNe build<CR>")
     end,
   },
+
+  -- nim
+  {
+    "alaviss/nim.nvim",
+    ft = { "nim", "nims", "nimble" },
+    config = function()
+      require("nim").setup({})
+    end,
+  },
 }
 
 return plugins

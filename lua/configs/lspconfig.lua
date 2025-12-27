@@ -55,4 +55,5 @@ vim.lsp.enable({
   "textlsp",
   "ols",
   "haxe-language-server",
+  "nimlangserver",
 })
