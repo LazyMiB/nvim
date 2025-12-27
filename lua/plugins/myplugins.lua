@@ -103,6 +103,13 @@ local plugins = {
       require("nim").setup({})
     end,
   },
+
+  -- rust
+  {
+    "mrcjkb/rustaceanvim",
+    version = '^6',
+    lazy = false,
+  },
 }
 
 return plugins
