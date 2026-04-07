@@ -34,4 +34,5 @@ vim.lsp.enable({
   "ols",
   "haxe-language-server",
   "nimlangserver",
+  "jdtls",
 })
